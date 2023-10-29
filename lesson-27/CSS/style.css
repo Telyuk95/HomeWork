@@ -1,0 +1,21 @@
+.block {
+  width: 500px;
+  height: 500px;
+  background: #000;
+}
+
+/* #block {
+  background: green;
+} */
+
+/* .block-2 {
+  background: #ff0000;
+} */
+
+/* div {
+  background: yellow !important;
+} */
+
+div.block {
+  background: yellow;
+}

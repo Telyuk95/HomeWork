@@ -1,0 +1,30 @@
+body {
+  font-size: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.block {
+  background: #7161d1;
+  margin: 50px;
+  padding: 30px;
+  height: 200px;
+  width: 400px;
+  opacity: 0.5;
+  visibility: visible;
+  /* overflow: hidden; */
+  overflow: auto;
+}
+
+
+.inline {
+  background: #dd8383;
+  opacity: .7;
+}
+
+.img {
+  opacity: .2;
+}

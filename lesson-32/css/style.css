@@ -1,0 +1,25 @@
+body {
+  font-size: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  background: #7161d1;
+  border: 10px solid #af0e0e;
+  border-bottom-color: blue;
+  border-top-style: dotted;
+  border-right-style: groove;
+}
+
+
+.inline {
+  background: #dd8383;
+}
+
+.img {
+  border-radius: 50%;
+  border-radius: 50px;
+}

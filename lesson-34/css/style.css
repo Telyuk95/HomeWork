@@ -1,0 +1,27 @@
+body {
+  font-size: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.block {
+  background: #7161d1;
+  margin: 50px;
+  padding: 30px;
+  width: 500px;
+  display: inline-block;
+}
+
+
+.inline {
+  background: #dd8383;
+  display: block;
+  display: none;
+}
+
+.img {
+  display: block;
+}

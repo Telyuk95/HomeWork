@@ -1,0 +1,28 @@
+body {
+  background: #262628;
+}
+
+.text {
+  color: white;
+}
+
+.white {
+  background-color: white;
+  min-height: 100px;
+  width: auto;
+  border-radius: 10px;
+  position: fixed;
+  left: 50%;
+  right: 50px;
+  bottom: 100px;
+}
+
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  position: fixed;
+  left: 55%;
+  bottom: 150px;
+}

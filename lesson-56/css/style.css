@@ -1,0 +1,100 @@
+body {
+    background-color: #1d1d1f;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.wrapper {
+    padding: 50px;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.link {
+    display: block;
+    background-color: #555;
+    border-radius: 2em;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 2em;
+    margin-bottom: 100px;
+    font-size: inherit;
+}
+
+.button {
+    display: block;
+    background-color: #555;
+    border-radius: 2em;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: inherit;
+    color: inherit;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+/* ======================================================== */
+
+.link:hover {
+    background: #07666d;
+}
+
+.link:active {
+    background: #1a85a0;
+}
+
+.block__title:hover {
+    color: red;
+}
+
+/* .block__title:active {
+    color: blue;
+} */
+
+.button:active {
+    background: #1a85a0;
+}
+
+/* .link:focus {
+    box-shadow: 0 0 10px 10px #06595f;
+} */
+
+:focus {
+    box-shadow: 0 0 10px 15px #06595f;
+}
+
+
+.list__item:first-child {
+    color: #076817;
+}
+
+.list__item:last-child {
+    color: #9b980a;
+}
+
+.list__item:nth-child(odd) {
+    color: purple;
+}
+
+.list__item:nth-child(even) {
+    color: rgb(28, 0, 128);
+}
+
+.list__item:nth-child(5) {
+    color: rgb(128, 15, 0);
+}
+
+

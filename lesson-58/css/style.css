@@ -43,7 +43,8 @@ body {
 
 .text {
     opacity: 0;
-    transition-delay: 2s;
+    transition: 2s 0.5s;
+/*     transition-delay: 2s; */
 }
 
 .block:hover .text {

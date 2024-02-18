@@ -1,0 +1,51 @@
+:root {
+    --acent-color: #208f6a;
+    --indent: 2vw;
+    --bd-radius: 0.8vw;
+}
+
+body {
+    background: #202022;
+    color: #fff;
+    padding: var(--indent);
+    font-family: sans-serif;
+}
+
+.section {
+--add-fz: 40px;
+
+    max-width: 50vw;
+    margin: 0 auto;
+    background: #444245;
+    padding: var(--indent);
+    border-radius: .8vw;
+    text-align: center;
+    overflow: hidden;
+    border: 5px solid var(--acent-color);
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 1.8vw;
+    background: var(--acent-color);
+    padding: var(--indent);
+    margin: -2vw -2vw 2vw;
+}
+
+.text {
+    margin-bottom: 2vw;
+    font-size: var(--add-fz);
+}
+
+.button {
+--acent-color: #0b583f;
+
+    padding: 1.5vw;
+    background: var(--acent-color);
+    border-radius: calc(var(--bd-radius) - 10px);
+    text-align: center;
+    max-width: 20vw;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: var(--add-fz);
+}
